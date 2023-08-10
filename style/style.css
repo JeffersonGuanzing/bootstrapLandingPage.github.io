@@ -1,21 +1,23 @@
+/* Reset default styles for all elements */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
-/* Add custom CSS here */
+/* Global Styles */
 body {
   overflow-x: hidden; /* Prevent horizontal scrollbar */
-  font-family: "Montserrat", sans-serif;
-  font-family: "Poppins", sans-serif;
 }
 
+/* Header Styles */
 .header {
   padding-right: 15px;
   padding-left: 15px;
 }
 
+/* Hero Section Styles */
 .hero {
   height: 80vh;
   overflow: hidden;
@@ -26,12 +28,13 @@ body {
   height: auto; /* Responsive image */
 }
 
+/* Section Image Styles */
 section img {
   max-width: 100%;
   height: auto;
 }
 
-/* Make each section take full viewport height */
+/* Full Height Section Styles */
 .section-full-height {
   min-height: 100vh;
   display: flex;
@@ -39,11 +42,12 @@ section img {
   justify-content: center;
 }
 
-/* Add some padding to separate the sections */
+/* Section Padding Styles */
 .section-padding {
   padding: 5rem 0;
 }
 
+/* Navbar Styles */
 ul.navbar-nav {
   margin-left: auto;
 }
