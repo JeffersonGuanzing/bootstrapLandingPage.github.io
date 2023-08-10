@@ -1,6 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 /* Add custom CSS here */
         body {
             overflow-x: hidden; /* Prevent horizontal scrollbar */
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Poppins', sans-serif;
         }
         .header {
             padding-right: 15px;
